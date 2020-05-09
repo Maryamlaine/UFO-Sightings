@@ -37,7 +37,7 @@ function runEnter() {
   // Prevent the page from refreshing
   d3.event.preventDefault();
   
-    var query = d3.select(this).select("input");
+    var query = d3.select(this).selectAll("input");
     
     var queryvalue = query.property("value");
     var queryid = query.attr("id");
@@ -52,8 +52,8 @@ function newtable(){
 
     let newData = tableData;
     Object.entries(inputValues).forEach(function([key,value]){
-       newData = newData.filter(ufo => ufo[key] === value);
-        console.log(newData);
+      newData = newData.filter(ufo => ufo[key] === value);
+      console.log(newData);
     });
     
     tbody.html('')
@@ -69,13 +69,3 @@ function newtable(){
       });
     });
     };
-
-
-
-
-
-
-
-
-
-

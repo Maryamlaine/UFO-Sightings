@@ -16,4 +16,4 @@
   5. `shape`
 
 click [here](https://maryamlaine.github.io/javascript-challenge/UFO-level-1/index.html) to deploy first page of UFO Sightings.
-click [here](https://maryamlaine.github.io/javascript-challenge/UFO-level-2/index_2.html) to deploy second pafe of UFO Sightings.
+click [here](https://maryamlaine.github.io/javascript-challenge/UFO-level-2/index_2.html) to deploy second page of UFO Sightings.
